@@ -7,11 +7,12 @@
         {% load bootstrap5 %}
         {% bootstrap_css %}
         {% bootstrap_javascript %}
+        {% load static %}
+        <link rel="icon" type="image/png" href="{% static 'converter/img/cc-icon.png' %}">
     </head>
     <body class="bg-primary bg-opacity-50">
         <div class="px-4 py-5 my-5 text-center">
-            <img class="img-fluid d-block mx-auto mb-4" src="https://raw.githubusercontent.com/alexprengere/currencyconverter/master/logo/cc3.png" alt="" width="70%">
-            
+            <img class="img-fluid d-block mx-auto mb-4" src="{% static 'converter/img/cc-logo.png' %}" alt="logo" width="70%">
             <div class="col-lg-6 mx-auto">
                 <form method="post">
                     {% csrf_token %}
