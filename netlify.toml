@@ -1,2 +1,2 @@
  [build] 
- command = "python manage.py collectstatic --noinput" publish = "prodMedia/"
+ command = "python manage.py collectstatic --noinput" publish = "currency-conversion"
