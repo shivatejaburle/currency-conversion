@@ -1,2 +1,3 @@
  [build] 
- command = "python manage.py collectstatic --noinput" publish = "currency-conversion"
+ command = "pip install -r requirements.txt"
+ command = "python manage.py collectstatic"
