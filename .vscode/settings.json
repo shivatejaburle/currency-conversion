@@ -3,7 +3,9 @@
         "collectstatic",
         "dotenv",
         "runserver",
+        "staticfiles",
         "venv",
-        "virtualenv"
+        "virtualenv",
+        "wsgi"
     ]
 }
